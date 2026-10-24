@@ -1,0 +1,13 @@
+# NHANES data are public but not redistributed; run scripts/00_download_nhanes.py
+data/*
+!data/.gitkeep
+# Large regenerated intermediates
+*.pkl
+results/v4_boot*/
+results/v4_inner*/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.env

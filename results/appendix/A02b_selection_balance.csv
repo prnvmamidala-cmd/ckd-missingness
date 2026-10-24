@@ -1,0 +1,15 @@
+Characteristic,Eligible adults with PIR (interview weights),Included (interview weights),"Included (MEC weights, main analysis)",Included (IPW weights),Excluded (interview weights)
+N,"15,004","12,546","12,546","12,546","2,458"
+"Age, years (mean)",48.0,47.8,47.8,47.9,49.0
+"Female, %",51.4,51.1,50.8,51.4,53.2
+"  Non-Hispanic White, %",65.5,66.4,66.3,65.2,59.9
+"  Non-Hispanic Black, %",11.0,10.4,10.3,11.2,15.1
+"  Mexican American, %",8.4,8.5,8.5,8.5,8.1
+"  Other Hispanic, %",5.9,5.8,5.8,5.9,6.5
+"  Other/multiracial, %",9.1,8.9,9.0,9.1,10.4
+"Low income, %",21.8,20.9,21.0,22.0,27.3
+"Middle income, %",35.7,35.7,35.7,35.8,35.6
+"High income, %",42.5,43.4,43.3,42.2,37.1
+"Told had hypertension, %",33.4,32.9,32.9,33.5,35.9
+"Ever smoked, %",43.6,43.4,43.4,43.7,45.0
+"CKD, % (where both kidney labs measured)",14.1,13.5,13.6,14.0,23.2

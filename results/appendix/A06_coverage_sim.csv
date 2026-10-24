@@ -1,0 +1,6 @@
+Interval,"Coverage, ΔFNR low","Mean width (pp), ΔFNR low","Coverage, gap","Mean width (pp), gap"
+Naive percentile,0.977,5.16,0.993,5.97
+Conservative √2-rescaled percentile (primary),1.000,7.30,1.000,8.44
+Noise-corrected Wald,0.887,4.57,0.873,4.80
+"Truth (superpopulation): ΔFNR low 15.99 pp, gap 13.40 pp; R = 300 samples, B = 200; Monte Carlo SE of coverage at 0.95 = 0.013",,,,
+Bias of estimate 0.13 / 0.11 pp; empirical SD 1.12 / 1.16; mean √2 × bootstrap SD 1.91 / 2.20; mean noise-corrected SE 1.17 / 1.23 (ΔFNR low / gap),,,,

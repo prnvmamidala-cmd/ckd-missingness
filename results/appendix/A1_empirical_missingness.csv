@@ -1,0 +1,23 @@
+"Feature or block (% missing, weighted)",Low income,Middle income,High income
+N,"4,760","5,767","4,477"
+Not examined,3.3,3.4,3.5
+BMI,4.6,4.6,4.4
+Waist,9.6,7.8,6.7
+Systolic BP,7.3,6.0,6.1
+Diastolic BP,7.3,6.0,6.1
+Hypertension history,0.2,0.1,0.0
+Ever smoked,0.0,0.0,0.0
+HbA1c,7.5,6.8,6.3
+Glucose,8.8,7.7,7.1
+Uric acid,8.8,7.7,7.1
+ALT,8.8,7.7,7.1
+Triglycerides,8.8,7.7,7.1
+Albumin,8.8,7.7,7.1
+Total cholesterol,8.5,7.4,6.9
+exam block: any missing,12.5,10.0,8.7
+exam block: all missing,3.6,3.6,3.8
+questionnaire block: any missing,0.2,0.1,0.0
+questionnaire block: all missing,0.0,0.0,0.0
+lab block: any missing,8.9,7.8,7.3
+lab block: all missing,7.4,6.7,6.2
+Any of 13 features missing,16.9,13.6,11.9

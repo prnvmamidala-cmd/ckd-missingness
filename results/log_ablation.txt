@@ -1,0 +1,57 @@
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+split 5 done in 50s
+split 0 done in 50s
+split 2 done in 50s
+split 3 done in 51s
+split 1 done in 51s
+split 4 done in 51s
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+split 8 done in 50s
+split 7 done in 51s
+split 10 done in 50s
+split 6 done in 52s
+split 11 done in 51s
+split 9 done in 52s
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+split 12 done in 51s
+split 13 done in 51s
+split 14 done in 51s
+split 17 done in 50s
+split 15 done in 51s
+split 16 done in 52s
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+/workspace/JEI_Paper_Imputation_v3/repo/scripts/03_repeated_splits.py:79: RuntimeWarning: invalid value encountered in divide
+  reps = ((Wr * sel) * vec_rep).sum(1) / (Wr * sel).sum(1)
+split 19 done in 52s
+split 18 done in 53s
+saved /workspace/JEI_Paper_Imputation_v3/repo/results/v3_ablation_raw.pkl

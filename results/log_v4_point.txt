@@ -1,0 +1,21 @@
+split 2 121s
+split 0 122s
+split 1 126s
+split 3 121s
+split 4 121s
+split 5 119s
+split 7 127s
+split 6 130s
+split 8 128s
+split 10 125s
+split 9 133s
+split 11 130s
+split 12 126s
+split 13 125s
+split 14 125s
+split 15 117s
+split 17 115s
+split 16 118s
+split 18 119s
+split 19 119s
+saved v4_point_raw.pkl

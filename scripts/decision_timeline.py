@@ -1,0 +1,31 @@
+"""Timing of every hypothesis and analysis decision (review point E). Dates are Pacific Time, 2026. 'Seen before' lists the
+results that were available when the decision was made. Label: confirmatory only if fixed before any relevant result."""
+ROWS = [
+ # (decision, when made, results seen before the decision, label)
+ ("H1: low-income ΔFNR > 0 for chained-equation imputation (IterativeImputer, Bayesian ridge, 10 iterations, no posterior sampling; called 'MICE' in the preregistration) and for KNN (k = 5), tested separately",
+  "5 Oct, ~10:06 (written preregistration)", "None (before any model was fit)", "Confirmatory"),
+ ("CKD label (CKD-EPI 2021 eGFR < 60 or UACR ≥ 30 mg/g), 15 features, BUN/creatinine/UACR/eGFR excluded, adults ≥ 20 y, not pregnant, complete cases",
+  "5 Oct (preregistration)", "None", "Confirmatory design element"),
+ ("Cell-level deletion of each feature entry (all 15 features, including age and sex) at 30% / 10% / 5% for low / middle / high income (scenario S0)",
+  "5 Oct (preregistration)", "None", "Confirmatory design element"),
+ ("XGBoost model; threshold fixed on complete data for ≈ 80% sensitivity; repairs: median, mean, chained-equation, KNN, XGBoost native",
+  "5 Oct (preregistration)", "None", "Confirmatory design element (mean, median and native results are prespecified but secondary)"),
+ ("H2: uniform 15% deletion control (all 15 features) should not show the same low-income ΔFNR; H3: native handling ΔFNR ≤ median/chained-equation",
+  "5 Oct (preregistration)", "None", "Prespecified secondary"),
+ ("Income tiers PIR < 1.3 / 1.3–3.5 / ≥ 3.5 (the preregistration's question text mentioned PIR ≥ 4 for 'high'; the design used three tiers)",
+  "5 Oct (first analysis code)", "None", "Design element; deviation from question text noted"),
+ ("Inference: preregistered 1,000-replicate bootstrap over test PSUs with p < 0.05; replaced by CIs without p-values",
+  "18 Oct (v2) and 20 Oct (v4)", "First analysis (5 Oct), v1 and v2 results", "Deviation from preregistration"),
+ ("Deletion-rate sweep 10–50% (v1/v2 only; not repeated in v4)", "17 Oct (v1)", "First analysis results", "Exploratory"),
+ ("Three-way split with calibration-set threshold (replaced 70/30 split with training-set threshold)", "18 Oct (v2)", "First analysis and v1 results", "Deviation; exploratory"),
+ ("Stochastic iterative imputation with prediction averaging (posterior sampling, m = 10) added as the main multiple-imputation condition; binary values rounded", "18 Oct (v2)", "v1 results", "Exploratory"),
+ ("Repeated masks (40 in v2; 20 in v3; 10 per split in v4)", "18 Oct (v2)", "v1 results", "Estimation detail"),
+ ("Age and sex never deleted (scenario S1)", "18 Oct (v3)", "v1 and v2 results", "Exploratory"),
+ ("Block deletion (S2), empirical NHANES patterns (S3), pooled-pattern and uniform controls (S4–S6), single-block scenarios (S8–S10)", "18 Oct (v3)", "v1 and v2 results", "Exploratory"),
+ ("20 stratum-preserving repeated splits", "18 Oct (v3)", "v1 and v2 results", "Estimation detail"),
+ ("Logistic regression and random forest; Youden and 20%-FPR thresholds; missingness-aware training; proxy ablation; decision curves; mechanism; intersectional subgroups; 2021–2023 external validation", "18 Oct (v3)", "v1 and v2 results", "Exploratory"),
+ ("Hierarchical outer PSU bootstrap with stratum cross-fitting, and coverage simulation", "20 Oct (v4)", "v1–v3 results", "Inference method (applies to all analyses)"),
+ ("Selection (inverse-probability-of-complete-case) weighting sensitivity", "20 Oct (v4)", "v1–v3 results", "Exploratory"),
+ ("Logistic chained imputation and fractional-binary sensitivity", "20 Oct (v4)", "v1–v3 results", "Exploratory"),
+ ("Preregistered chained-equation imputation (no posterior sampling) and the preregistered H2 control (S11) reinstated in the main tables", "20 Oct (v4)", "v1–v3 results", "Restores confirmatory analysis"),
+]

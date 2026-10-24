@@ -1,0 +1,16 @@
+{
+ "participants": 29400,
+ "MEC_examined": 28061,
+ "adults_20plus": 16327,
+ "not_pregnant": 16137,
+ "with_creatinine_and_uacr": 14980,
+ "complete_15_features": 13875,
+ "with_PIR": 12546,
+ "eligible_interviewed_adults": 16867,
+ "excluded_reasons": {
+  "missing PIR": 1329,
+  "no creatinine or UACR": 1157,
+  "missing >=1 of 15 features": 1105,
+  "not examined": 730
+ }
+}

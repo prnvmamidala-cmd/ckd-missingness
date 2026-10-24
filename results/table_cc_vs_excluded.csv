@@ -1,0 +1,20 @@
+Characteristic,Included (complete cases),Excluded
+N,"12,546","4,321"
+"Age, years (weighted mean)",47.8,49.3
+"Female, %",51.1,52.4
+"  Non-Hispanic White, %",66.4,55.9
+"  Non-Hispanic Black, %",10.4,14.8
+"  Mexican American, %",8.5,10.5
+"  Other Hispanic, %",5.8,8.1
+"  Other/multiracial, %",8.9,10.8
+"Low income (PIR < 1.3), %",20.9,27.3
+"Middle income, %",35.7,35.6
+"High income (PIR ≥ 3.5), %",43.4,37.1
+"PIR missing, %",0.0,41.3
+"Examined at MEC, %",100.0,81.1
+"Told had hypertension, %*",32.9,35.1
+"Ever smoked, %*",43.4,43.3
+"BMI, kg/m² (weighted mean)*",29.4,29.7
+"HbA1c, % (weighted mean)*",5.65,5.78
+"CKD, % (if both labs measured)*",13.5,17.1
+  n with both kidney labs,"12,546","2,434"

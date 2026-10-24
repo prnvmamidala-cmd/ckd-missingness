@@ -1,0 +1,71 @@
+S1_cell done
+S2_block done
+S3_empirical done
+S5_cell_unif done
+S6_block_unif done
+{
+ "flow_2021_2023": {
+  "participants": 11933,
+  "MEC_examined": 8860,
+  "adults_20plus": 6064,
+  "not_pregnant": 6023,
+  "with_creatinine_and_uacr": 5307,
+  "complete_15_features": 4999,
+  "with_PIR": 4381
+ },
+ "n_test": 4381,
+ "n_strata": 15,
+ "n_psu": 30,
+ "ckd_cases": {
+  "low": 159,
+  "mid": 335,
+  "high": 218,
+  "all": 712
+ },
+ "auroc": {
+  "xgb": {
+   "low": 0.8287896101852127,
+   "mid": 0.8243861585707701,
+   "high": 0.7723476761033272,
+   "all": 0.811046353564194
+  },
+  "lr": {
+   "low": 0.8098640392417606,
+   "mid": 0.7975537776708221,
+   "high": 0.7748952281737786,
+   "all": 0.7950698445451665
+  },
+  "rf": {
+   "low": 0.8215783811161387,
+   "mid": 0.8155200601541295,
+   "high": 0.7658265778668126,
+   "all": 0.8043269747156567
+  }
+ }
+}
+xgb|sens80 {'FNR_low': 0.117, 'FNR_mid': 0.084, 'FNR_high': 0.187, 'FNR_all': 0.125, 'FPR_low': 0.446, 'FPR_mid': 0.498, 'FPR_high': 0.449, 'FPR_all': 0.466}
+S1_cell|xgb|mean|sens80 {'dFNR_low': (5.5, 2.0, 8.5), 'dFNR_high': (1.0, -0.0, 2.2), 'gap': (4.5, 0.8, 8.0)}
+S1_cell|xgb|median|sens80 {'dFNR_low': (5.4, 1.7, 8.6), 'dFNR_high': (0.8, 0.0, 1.8), 'gap': (4.5, 0.7, 8.0)}
+S1_cell|xgb|knn|sens80 {'dFNR_low': (1.9, -0.9, 4.3), 'dFNR_high': (0.4, -0.3, 1.4), 'gap': (1.4, -1.5, 4.0)}
+S1_cell|xgb|mice|sens80 {'dFNR_low': (-2.9, -6.7, 0.3), 'dFNR_high': (-0.2, -1.5, 1.1), 'gap': (-2.7, -6.2, 0.5)}
+S1_cell|xgb|xgb_native|sens80 {'dFNR_low': (-9.1, -16.0, -3.3), 'dFNR_high': (-2.7, -4.1, -0.9), 'gap': (-6.4, -13.0, -0.9)}
+S2_block|xgb|mean|sens80 {'dFNR_low': (9.1, 5.1, 12.7), 'dFNR_high': (1.4, 0.7, 2.1), 'gap': (7.8, 3.5, 11.5)}
+S2_block|xgb|median|sens80 {'dFNR_low': (7.6, 3.8, 10.7), 'dFNR_high': (1.2, 0.6, 1.8), 'gap': (6.4, 2.5, 9.6)}
+S2_block|xgb|knn|sens80 {'dFNR_low': (4.3, 1.3, 7.0), 'dFNR_high': (0.5, -0.0, 1.1), 'gap': (3.9, 0.6, 6.8)}
+S2_block|xgb|mice|sens80 {'dFNR_low': (-1.6, -4.2, 0.5), 'dFNR_high': (-0.5, -0.9, -0.0), 'gap': (-1.1, -3.7, 1.0)}
+S2_block|xgb|xgb_native|sens80 {'dFNR_low': (-5.1, -8.9, -2.1), 'dFNR_high': (-2.2, -3.7, -0.8), 'gap': (-2.9, -6.5, 0.4)}
+S3_empirical|xgb|mean|sens80 {'dFNR_low': (1.5, 0.5, 2.6), 'dFNR_high': (1.2, 0.6, 2.0), 'gap': (0.3, -1.1, 1.8)}
+S3_empirical|xgb|median|sens80 {'dFNR_low': (0.8, -0.1, 1.7), 'dFNR_high': (0.8, 0.2, 1.4), 'gap': (-0.0, -1.3, 1.2)}
+S3_empirical|xgb|knn|sens80 {'dFNR_low': (0.8, -0.2, 1.9), 'dFNR_high': (0.5, 0.0, 1.0), 'gap': (0.3, -0.9, 1.5)}
+S3_empirical|xgb|mice|sens80 {'dFNR_low': (-0.6, -1.4, 0.2), 'dFNR_high': (-0.8, -1.4, -0.3), 'gap': (0.2, -0.7, 1.2)}
+S3_empirical|xgb|xgb_native|sens80 {'dFNR_low': (-1.5, -2.6, -0.5), 'dFNR_high': (-1.9, -3.2, -0.8), 'gap': (0.4, -0.9, 1.9)}
+S5_cell_unif|xgb|mean|sens80 {'dFNR_low': (2.1, -0.2, 4.3), 'dFNR_high': (2.6, 1.0, 4.4), 'gap': (-0.5, -3.6, 2.4)}
+S5_cell_unif|xgb|median|sens80 {'dFNR_low': (2.0, -0.5, 4.2), 'dFNR_high': (2.5, 0.9, 4.2), 'gap': (-0.5, -3.4, 2.4)}
+S5_cell_unif|xgb|knn|sens80 {'dFNR_low': (0.3, -1.5, 2.0), 'dFNR_high': (0.9, -0.3, 2.2), 'gap': (-0.5, -2.4, 1.2)}
+S5_cell_unif|xgb|mice|sens80 {'dFNR_low': (-1.5, -3.8, 0.5), 'dFNR_high': (-1.4, -2.7, -0.1), 'gap': (-0.1, -2.8, 2.3)}
+S5_cell_unif|xgb|xgb_native|sens80 {'dFNR_low': (-6.5, -12.0, -1.9), 'dFNR_high': (-7.8, -10.4, -4.5), 'gap': (1.3, -4.1, 6.3)}
+S6_block_unif|xgb|mean|sens80 {'dFNR_low': (4.6, 2.5, 6.5), 'dFNR_high': (3.7, 2.4, 5.1), 'gap': (0.9, -1.9, 3.8)}
+S6_block_unif|xgb|median|sens80 {'dFNR_low': (3.2, 1.5, 4.9), 'dFNR_high': (3.0, 1.8, 4.4), 'gap': (0.2, -2.3, 2.7)}
+S6_block_unif|xgb|knn|sens80 {'dFNR_low': (2.1, 0.7, 3.5), 'dFNR_high': (1.5, 0.3, 3.0), 'gap': (0.6, -1.6, 2.7)}
+S6_block_unif|xgb|mice|sens80 {'dFNR_low': (-0.9, -2.3, 0.2), 'dFNR_high': (-1.5, -2.3, -0.4), 'gap': (0.5, -1.0, 1.8)}
+S6_block_unif|xgb|xgb_native|sens80 {'dFNR_low': (-2.7, -4.6, -1.2), 'dFNR_high': (-5.1, -7.1, -2.8), 'gap': (2.4, 0.1, 4.7)}

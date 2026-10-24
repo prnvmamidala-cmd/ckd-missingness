@@ -1,0 +1,24 @@
+Quantity,Value
+Eligible interviewed adults with recorded income,"15,004"
+Included complete cases,"12,546"
+Selection model AUROC (interview-weighted),0.603
+Predicted inclusion probability among included,0.585 to 0.927
+Weights truncated at 99th percentile,126
+"Effective sample size, MEC weights","6,484"
+"Effective sample size, selection weights","7,005"
+Coefficient: age,-0.091
+Coefficient: age2,-0.264
+Coefficient: female,-0.061
+Coefficient: pir,0.652
+Coefficient: race_NHBlack,-0.450
+Coefficient: race_MexAm,-0.048
+Coefficient: race_OtherHisp,-0.198
+Coefficient: race_Other,-0.288
+Coefficient: tier_low,0.242
+Coefficient: tier_mid,0.297
+Coefficient: cyc_2015,-0.006
+Coefficient: cyc_2017,-0.154
+Coefficient: htn_told_miss,-9.725
+Coefficient: htn_told,-0.039
+Coefficient: ever_smoke_miss,-4.974
+Coefficient: ever_smoke,-0.072
